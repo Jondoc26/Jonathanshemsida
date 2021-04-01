@@ -1,0 +1,225 @@
+h2 {
+    font-family:monospace;
+    background-color: deeppink;
+}
+.unordered { 
+    list-style-type: square; 
+} 
+.nested-ul { 
+    list-style-type: circle;
+ }
+ .unordered {
+
+    line-height: 170%;
+    
+    }
+    .unordered {
+
+        background: red;
+        
+        padding: 20px;
+        
+        width: 30%;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        .unordered li {
+        
+        background: yellow;
+        
+        margin: 5px;
+        
+        }
+        
+        .nested-ul li {
+        
+        background: darkred;
+        
+        margin: 5px;
+        
+        }
+        .ordered {
+
+            background:green;
+            
+            padding: 20px;
+            
+            width: 20%;
+            
+            font-family: 'Arial', cursive;
+            
+            font-size: 1.3em;
+            
+            }
+            
+            .ordered li {
+            
+            background:greenyellow;
+            
+            padding: 5px;
+            
+            margin-left: 20px;
+            
+            }
+            .custom-box-list {
+
+                margin: 0;
+                
+                padding: 0;
+                
+                list-style-type: none;
+                
+                }
+                
+                .custom-box-list li {
+                
+                counter-increment: step-counter;
+                
+                margin-bottom: 10px;
+                
+                }
+                
+                .custom-box-list li::before {
+                
+                content: counter(step-counter);
+                
+                margin-right: 5px;
+                
+                font-size: 80%;
+                
+                background-color: rgb(2, 24, 95);
+                
+                color: rgb(255, 255, 255, 0.808);
+                
+                font-weight: bold;
+                
+                padding: 3px 8px;
+                
+                border-radius: 3px;
+                }
+                .list-image {
+
+                    list-style: none;
+                    
+                    padding-left: 0;
+                    
+                    }
+                    
+                    .list-image li {
+                    
+                    position: relative;
+                    
+                    padding-left: 30px;
+                    
+                    line-height: 170%;
+                    
+                    }
+                    
+                    .list-image li:before {
+                    
+                    content: '';
+                    
+                    width: 20px;
+                    
+                    height: 20px;
+                    
+                    position: absolute;
+                    
+                    background-image: url('profile.png');
+                    
+                    background-size: cover;
+                    
+                    background-position: center;
+                    
+                    left: 0;
+                    
+                    top: 50%;
+                    
+                    transform: translateY(-50%);
+                    
+                    }
+                    .football-sites {
+
+                        list-style: none;
+                        
+                        padding-left: 0;
+                        
+                        }
+                        
+                        .football-sites li {
+                        
+                        position: relative;
+                        
+                        padding-left: 30px;
+                        
+                        line-height: 70%;
+                        font-family: Impact;
+                        
+                        }
+                        
+                        .football-sites li:before {
+                        
+                        content: '';
+                        
+                        width: 20px;
+                        
+                        height: 20px;
+                        
+                        position: absolute;
+                        
+                        background-image: url('medal.png');
+                        
+                        background-size: cover;
+                        
+                        background-position: center;
+                        
+                        left: 0;
+                        
+                        top: 100%;
+                        
+                        transform: translateY(-50%);
+                        
+                        }
+                        .other-sites {
+
+                            list-style: none;
+                            
+                            padding-left: 0;
+                            
+                            }
+                            
+                            .other-sites li {
+                            
+                            position: relative;
+                            
+                            padding-left: 30px;
+                            
+                            line-height: 170%;
+                            font-family:fantasy;
+                            }
+                            
+                            .other-sites li:before {
+                            
+                            content: '';
+                            
+                            width: 20px;
+                            
+                            height: 20px;
+                            
+                            position: absolute;
+                            
+                            background-image: url('game-over.png');
+                            
+                            background-size: cover;
+                            
+                            background-position: center;
+                            
+                            left: 0;
+                            
+                            top: 50%;
+                            
+                            transform: translateY(-50%);
+                            
+                            }
