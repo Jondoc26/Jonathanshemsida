@@ -336,4 +336,34 @@ h2 {
                                   background-color: #ffacf4;
                                   
                                   }
+                                  .scroll-bar{
+                                    overflow-x: auto;
+                                    vertical-align: auto;
+                                    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
+                                  }
+                                  .table-image {
+
+                                    margin: 0 auto;
+                                    
+                                    }
+                                    table.blueTable {
+                                      font-family: Impact, Charcoal, sans-serif;
+                                      border: 3px solid #1C6EA4;
+                                      background-color: #EEEEEE;
+                                      width: 100%;
+                                      height: 70px;
+                                      text-align: left;
+                                      border-collapse: collapse;
+                                    }
+                                    table.blueTable td, table.blueTable th {
+                                      border: 5px solid #AAAAAA;
+                                      padding: 3px 2px;
+                                    }
+                                    table.blueTable tbody td {
+                                      font-size: 14px;
+                                    }
+                                    table.blueTable tr:nth-child(even) {
+                                      background: #D0E4F5;
+                                    }
+                                    
                               
