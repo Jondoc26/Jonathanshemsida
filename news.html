@@ -4,6 +4,7 @@
     <title>Exempel 1 navigation bar</title>
     <meta charset = "utf-8" />
     <link href = "css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="css/slider.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <!--wrapper börjar-->
@@ -15,10 +16,22 @@
         <ul class="navbar">
             <li><a href="home.html">Hem</a></li>
             <li><a href="news.html">Nyheter</a></li>
-            <li><a href="contacts.html">kontakt</a></li>
+            <li><a href="contacts.html">Kontakt</a></li>
             <li><a href="about.html">Om</a></li>
         </ul>
     </header>
+    <div class="div-content">
+
+      <img class="mySlides" src="lerone-pieters-T-x7bEh9cr8-unsplash.jpg" style="width:100%">
+      <img class="mySlides" src="vadim-sadovski-zzwTUqvzIFg-unsplash.jpg" style="width:100%">
+      <img class="mySlides" src="harry-shelton-u1pmMdMbSsk-unsplash.jpg" style="width:100%">
+      <img class="mySlides" src="zoltan-tasi-VzRQmkFstAo-unsplash.jpg" style="width:100%">
+      <img class="mySlides" src="dane-deaner-H2cLIB7K_90-unsplash.jpg" style="width:100%">
+      
+      <button class="slider-button display-left" onclick="changeImage(-1)">&#8617;</button>
+      <button class="slider-button display-right" onclick="changeImage(1)">&#8618;</button>
+      
+      </div>
     <div class="wrapper_2col">
     <div class="leftcol">
       <p>
@@ -39,6 +52,7 @@
         Sed consectetur ornare libero a sagittis. Pellentesque aliquet ipsum ante.
         Sed eget tellus dui, eget sodales lectus.
       </p>
+     
     </div><!--leftcol slutar-->
     <div class="rightcol">
       <p>
@@ -66,5 +80,6 @@
       <p>All rights reserved - &#169; Copyright</p>
     </footer>
     </div><!--wrapper slutar-->
+    <script src="image-slider.js"></script>
   </body>
 </html>
