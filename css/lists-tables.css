@@ -261,7 +261,7 @@ h2 {
                               
                                 font-weight: bold; 
                               
-                                color: red; 
+                                color: darkblue; 
                               
                               } 
                               
@@ -297,20 +297,20 @@ h2 {
                               } 
                               .head-body-foot thead {
 
-                                color: rgb(4, 128, 0);
+                                color: rgb(250, 0, 0);
                                 
-                                background-color: rgb(13, 243, 232);
+                                background-color: rgb(255, 238, 0);
                                 
                                 }
                                 .head-body-foot thead:hover {
 
-                                  background-color: #ffafac;
+                                  background-color: #ffc5c3;
                                   
                                   }
                                 
                                 .head-body-foot tbody {
                                 
-                                color: rgb(182, 212, 182);
+                                color: rgb(0, 0, 0);
                                 
                                 font-weight: bold;
                                 
