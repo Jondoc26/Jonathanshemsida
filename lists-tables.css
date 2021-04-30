@@ -1,0 +1,369 @@
+h2 {
+    font-family:monospace;
+    background-color: deeppink;
+}
+.unordered { 
+    list-style-type: square; 
+} 
+.nested-ul { 
+    list-style-type: circle;
+ }
+ .unordered {
+
+    line-height: 170%;
+    
+    }
+    .unordered {
+
+        background: red;
+        
+        padding: 20px;
+        
+        width: 30%;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        .unordered li {
+        
+        background: yellow;
+        
+        margin: 5px;
+        
+        }
+        
+        .nested-ul li {
+        
+        background: darkred;
+        
+        margin: 5px;
+        
+        }
+        .ordered {
+
+            background:green;
+            
+            padding: 20px;
+            
+            width: 20%;
+            
+            font-family: 'Arial', cursive;
+            
+            font-size: 1.3em;
+            
+            }
+            
+            .ordered li {
+            
+            background:greenyellow;
+            
+            padding: 5px;
+            
+            margin-left: 20px;
+            
+            }
+            .custom-box-list {
+
+                margin: 0;
+                
+                padding: 0;
+                
+                list-style-type: none;
+                
+                }
+                
+                .custom-box-list li {
+                
+                counter-increment: step-counter;
+                
+                margin-bottom: 10px;
+                
+                }
+                
+                .custom-box-list li::before {
+                
+                content: counter(step-counter);
+                
+                margin-right: 5px;
+                
+                font-size: 80%;
+                
+                background-color: rgb(2, 24, 95);
+                
+                color: rgb(255, 255, 255, 0.808);
+                
+                font-weight: bold;
+                
+                padding: 3px 8px;
+                
+                border-radius: 3px;
+                }
+                .list-image {
+
+                    list-style: none;
+                    
+                    padding-left: 0;
+                    
+                    }
+                    
+                    .list-image li {
+                    
+                    position: relative;
+                    
+                    padding-left: 30px;
+                    
+                    line-height: 170%;
+                    
+                    }
+                    
+                    .list-image li:before {
+                    
+                    content: '';
+                    
+                    width: 20px;
+                    
+                    height: 20px;
+                    
+                    position: absolute;
+                    
+                    background-image: url('profile.png');
+                    
+                    background-size: cover;
+                    
+                    background-position: center;
+                    
+                    left: 0;
+                    
+                    top: 50%;
+                    
+                    transform: translateY(-50%);
+                    
+                    }
+                    .football-sites {
+
+                        list-style: none;
+                        
+                        padding-left: 0;
+                        
+                        }
+                        
+                        .football-sites li {
+                        
+                        position: relative;
+                        
+                        padding-left: 30px;
+                        
+                        line-height: 70%;
+                        font-family: Impact;
+                        
+                        }
+                        
+                        .football-sites li:before {
+                        
+                        content: '';
+                        
+                        width: 20px;
+                        
+                        height: 20px;
+                        
+                        position: absolute;
+                        
+                        background-image: url('medal.png');
+                        
+                        background-size: cover;
+                        
+                        background-position: center;
+                        
+                        left: 0;
+                        
+                        top: 100%;
+                        
+                        transform: translateY(-50%);
+                        
+                        }
+                        .other-sites {
+
+                            list-style: none;
+                            
+                            padding-left: 0;
+                            
+                            }
+                            
+                            .other-sites li {
+                            
+                            position: relative;
+                            
+                            padding-left: 30px;
+                            
+                            line-height: 170%;
+                            font-family:fantasy;
+                            }
+                            
+                            .other-sites li:before {
+                            
+                            content: '';
+                            
+                            width: 20px;
+                            
+                            height: 20px;
+                            
+                            position: absolute;
+                            
+                            background-image: url('game-over.png');
+                            
+                            background-size: cover;
+                            
+                            background-position: center;
+                            
+                            left: 0;
+                            
+                            top: 50%;
+                            
+                            transform: translateY(-50%);
+                            
+                            }
+                            table, td, th { 
+
+                                border: 1px solid black; 
+                            
+                              }		 
+                            
+                               
+                            
+                              table, th,td { 
+
+                                border: 1px solid black; 
+                              
+                                border-collapse: collapse; 
+                              
+                              } 
+                              
+                               
+                              
+                              th,td { 
+                              
+                                padding: 15px; 
+                              
+                                text-align: center; 
+                              
+                              } 
+                              
+                               
+                              
+                              caption { 
+                              
+                                caption-side: top; 
+                              
+                                text-align: center; 
+                              
+                                font-style: italic; 
+                              
+                                font-weight: bold; 
+                              
+                                color: darkblue; 
+                              
+                              } 
+                              
+                               
+                              
+                              .table-simple th { 
+                              
+                                background-color: yellow; 
+                              
+                                color: purple; 
+                              
+                              } 
+                              
+                               
+                              
+                              .table-simple tr:nth-child(even) { 
+                              
+                                background-color: #f8ffa7; 
+                              
+                              }                                                            
+                              .table-simple tr:nth-child(odd) { 
+                              
+                                background-color: #e3ed6d; 
+                              
+                              } 
+                              
+                               
+                              
+                              .table-simple tr:hover { 
+                              
+                                background-color: #ffacac; 
+                              
+                              } 
+                              .head-body-foot thead {
+
+                                color: rgb(250, 0, 0);
+                                
+                                background-color: rgb(255, 255, 255);
+                                
+                                }
+                                .head-body-foot thead:hover {
+
+                                  background-color: #ffc5c3;
+                                  
+                                  }
+                                
+                                .head-body-foot tbody {
+                                
+                                color: rgb(0, 0, 0);
+                                
+                                font-weight: bold;
+                                
+                                background-color: rgb(177, 175, 39);
+                                
+                                }
+                                .head-body-foot tbody:hover {
+
+                                  background-color: #acb9ff;
+                                  
+                                  }
+                                
+                                .head-body-foot tfoot {
+                                
+                                color: rgb(5, 4, 0);
+                                
+                                background-color: rgb(114, 216, 114);
+                                
+                                font-weight:bold ;
+                                }
+                                .head-body-foot tfoot:hover {
+
+                                  background-color: #ffacf4;
+                                  
+                                  }
+                                  .scroll-bar{
+                                    overflow-x: auto;
+                                    vertical-align: auto;
+                                    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.4);
+                                  }
+                                  .table-image {
+
+                                    margin: 0 auto;
+                                    
+                                    }
+                                    table.blueTable {
+                                      font-family: Impact, Charcoal, sans-serif;
+                                      border: 3px solid #1C6EA4;
+                                      background-color: #EEEEEE;
+                                      width: 100%;
+                                      height: 70px;
+                                      text-align: left;
+                                      border-collapse: collapse;
+                                    }
+                                    table.blueTable td, table.blueTable th {
+                                      border: 5px solid #AAAAAA;
+                                      padding: 3px 2px;
+                                    }
+                                    table.blueTable tbody td {
+                                      font-size: 14px;
+                                    }
+                                    table.blueTable tr:nth-child(even) {
+                                      background: #D0E4F5;
+                                    }
+                                    
+                              
