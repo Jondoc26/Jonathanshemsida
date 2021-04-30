@@ -24,7 +24,7 @@
     
     text-decoration: none;
     
-    color: gold;
+    color: greenyellow;
     
     background-color: transparent;
     
@@ -46,9 +46,9 @@
     
     .slider-button:hover {
     
-    color: white;
+    color: greenyellow;
     
-    background-color: gold ;
+    background-color: black ;
     
     }
     
